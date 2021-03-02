@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M17 1L0 1L0 0L17 0L17 1ZM0 5L17 5L17 4L0 4L0 5ZM20 10L15 13L15 7L20 10ZM13 9L0 9L0 7.999L13 7.999L13 9ZM16 8.766L18.057 10L16 11.233L16 8.766Z" transform="translate(2 6)" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="icn_playlist-copy-3">
+    <g id="Icon-/-Video-/-icn_playlist">
+      <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Rectangle-1-Copy-265" fill="none" stroke="none" />
+      <path d="M17 1L0 1L0 0L17 0L17 1ZM0 5L17 5L17 4L0 4L0 5ZM20 10L15 13L15 7L20 10ZM13 9L0 9L0 7.999L13 7.999L13 9ZM16 8.766L18.057 10L16 11.233L16 8.766Z" transform="translate(2 6)" id="Page-1" fill="#231F20" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#mask_1)">
+        <g id="Select-Color">
+          <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Rectangle-4" fill="#FFFFFF" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+@import './config';
+@import './gridlibrary';
+@import './responsive';
+@import './variables';
+
+body {
+  margin: 0;
+  font-family: proxima-nova, 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+
+  a {
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $secondary-color;
+      cursor: pointer;
+    }
+  }
+
+  button {
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover,
+    &:focus {
+      background-color: $blue-hover-color;
+    }
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

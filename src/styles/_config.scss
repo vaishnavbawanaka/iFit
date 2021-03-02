@@ -1,0 +1,30 @@
+@mixin flexContent($direction, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin flexAlign($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin media-screen-medium {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+}
+
+@mixin media-screen-large {
+    @media screen and (min-width: 1024px) {
+      @content;
+    }
+}
+
+@mixin media-screen-xlarge {
+    @media screen and (min-width: 1440px) {
+      @content;
+    }
+}

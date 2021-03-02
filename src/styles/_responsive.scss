@@ -1,0 +1,222 @@
+/**Media Queries**/
+
+@include media-screen-medium {
+    .top-product-nav {
+        justify-content: flex-start;
+
+        a {
+            width: 120px;
+
+            &:nth-child(3) {
+                border-right: 2px solid #979797;
+              }
+        }
+
+    }
+
+    .menu-burger {
+        display: none;
+    }
+
+    .main-links {
+        position: relative;
+        @include flexContent(row, space-around);
+        width: 387px;
+        height: 71px;
+        top: 0;
+    }
+
+    .hero-text {
+        width: 500px;
+        height: 120px;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .media-testimonial {
+        min-width: 340px;
+    }
+
+    .grid-library-cards {
+        @include flexContent(row, center);
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .grid-card {
+        &:nth-child(even) {
+            margin-left: 25px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .equipment-selection-title {
+        width: 768px;
+        height: 28px;
+    }
+
+    .equipment {
+        @include flexContent(row, center);
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        width: 650px;
+        margin: 0 auto 50px;
+
+        &-card {
+            margin: 10px;
+        }
+    }
+
+    .website-links {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .company-section,
+    .account-section,
+    .support-section {
+        width: auto;
+        margin: 0 80px;
+    }
+
+    .social-links {
+        justify-content: center;
+
+        a {
+            margin: 0 15px;
+        }
+    }
+
+    .language-selector {
+        position: absolute;
+        left: 40px;
+
+        &::after {
+            right: -10px;
+        }
+    }
+
+    .legal-info {
+        justify-content: space-between;
+        width: 438px;
+
+        p, a {
+           font-size: 14px; 
+        }
+
+        p {
+            width: 215px;
+        }
+    }
+
+    .legal-links {
+        @include flexContent(row, space-around);
+        width: 225px;
+    }
+
+}
+
+@include media-screen-large {
+    .main-nav {
+        justify-content: space-between;
+    }
+    
+    .ifitcoach-logo {
+        padding-left: 40px;
+    }
+
+    .sign-up-button {
+        margin-right: 23px;
+    }
+
+    .hero-text {
+        width: 984px;
+        height: 180px;
+        font-size: 72px;
+        line-height: 90px;
+    }
+
+    .left-arrow-button {
+        left: 8px;
+    }
+      
+    .right-arrow-button {
+        right: 8px;
+    }
+
+    .grid-library-cards {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .grid-card {
+        margin: 12px;
+
+        &:nth-child(even) {
+            margin-left: 10px;
+        }
+
+        &:last-child {
+            margin-bottom: 12px;
+        }
+
+    }
+
+  
+
+}
+
+@include media-screen-xlarge {
+    .media-testimonial {
+        min-width: 440px;
+        padding: 0;
+        margin: 0 11px;
+    }
+
+    .media-text {
+        width: 360px;
+        height: 48px;
+    }
+
+    .left-arrow-button {
+        left: 10px;
+    }
+      
+    .right-arrow-button {
+        right: 10px;
+    }
+
+    .grid-library-cards {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .grid-card {
+        margin: 12px;
+
+        &:nth-child(even) {
+            margin-left: 10px;
+        }
+
+        &:last-child {
+            margin-bottom: 12px;
+        }
+    }
+
+    .equipment {
+        width: 100%;
+        @include flexContent(row, center);
+        flex-wrap: nowrap;
+        flex-flow: nowrap;
+
+        &-card {
+            width: 330px;
+            height: 330px;
+        }
+    }
+}
